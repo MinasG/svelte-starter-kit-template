@@ -2,10 +2,10 @@
   "name": "svelte-starter-kit-template",
   "version": "1.0.0",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --open",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
+    "preview": "svelte-kit preview --open",
     "prepare": "svelte-kit sync",
     "test": "playwright test",
     "check": "svelte-check --tsconfig ./tsconfig.json",
