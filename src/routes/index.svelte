@@ -1,7 +1,4 @@
 <svelte:head>
-  <html lang="en" />
-  <meta name="robots" content="noindex nofollow" />
-  <meta name="description" content="A SvelteKit template with TS and tailwindcss" />
   <title>Hello, world!</title>
 </svelte:head>
 
