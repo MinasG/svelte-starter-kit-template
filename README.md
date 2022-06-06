@@ -1,3 +1,17 @@
+# SvelteKit starter template with TS & tailwindcss
+
+## Feel free to use this template for your next project.
+
+You can either click the `Use this template` button on the top right or if you like netlify you can deploy it straight away with the button below 👇🏼
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MinasG/svelte-starter-kit-template)
+
+### Buy Me A Coffee
+
+If I made your life easier or made you laugh, please feel free to buy me a cofee or pizza or whatever!
+
+[![Deploy to Netlify](https://minasg.com/images/buy-me-coffee.svg)](https://www.buymeacoffee.com/MinasG)
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
