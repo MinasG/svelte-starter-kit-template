@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<section class="h-screen flex flex-col items-center justify-center">
+  <h1 class="text-xl font-bold mb-2">Hello, world!</h1>
+  <h2>Welcome to SvelteKit with TS and tailwindcss.</h2>
+  <p>
+    Visit
+    <a class="text-blue-800 underline" target="_blank" rel="noreferrer noopener" href="https://kit.svelte.dev">
+      kit.svelte.dev
+    </a> to read the documentation.
+  </p>
+</section>
