@@ -8,7 +8,22 @@ You can either click the `Use this template` button on the top right or if you l
 
 ## Progressive Web App (PWA)
 
-This template is setup as a PWA. If you don't wish for your app to be a PWA, you can delete all the images for the various devices (e.g: `android`, `apple` etc) inside the `static/images` directory. Followed by the `manifest.json` inside the `static` directory. The `service-worker.ts` inside the `src` directory and finally delete the following three lines inside the `app.html` which is also in the `src` directory.
+This template is setup as a PWA.
+
+You can change your PWA settings inside the `manifest.json` file inside the `static` directory. [This documentation](https://web.dev/add-manifest/) around the manifest.json is extremely useful to help you understand the various settings.
+
+```
+"short_name": "SvelteKit starter",
+"name": "SvelteKit starter",
+"start_url": "/",
+"background_color": "#6366f1",
+"display": "fullscreen",
+"scope": "/",
+"theme_color": "#6366f1",
+"description": "SvelteKit starter",
+```
+
+If you don't wish for your app to be a PWA, you can delete all the images for the various devices (e.g: `android`, `apple` etc) inside the `static/images` directory. Followed by the `manifest.json` inside the `static` directory. The `service-worker.ts` inside the `src` directory and finally delete the following three lines inside the `app.html` which is also in the `src` directory.
 
 ```
 <meta name="theme-color" content="#6366f1" />
@@ -21,6 +36,8 @@ This template is setup as a PWA. If you don't wish for your app to be a PWA, you
 If I made your life easier or made you laugh, please feel free to buy me a cofee or pizza or whatever!
 
 [![Buy Me A Coffee](https://minasg.com/images/buy-me-coffee.svg)](https://www.buymeacoffee.com/MinasG)
+
+---
 
 # create-svelte
 
